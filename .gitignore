@@ -1,1 +1,26 @@
-/target/
+# Eclipse / IDE
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# TestNG / Reports
+test-output/
+reports/
+logs/
+Screenshots/
+*.log
+
+# SQL / Local data
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
