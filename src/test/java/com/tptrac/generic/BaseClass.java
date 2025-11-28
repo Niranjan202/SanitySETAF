@@ -71,7 +71,7 @@ public void openBrowser() throws IOException, InterruptedException {
         String url = f.getPropertyData("url");
         String un = f.getPropertyData("username");
         String pw = f.getPropertyData("password");
-
+        // get the latest app url
         driver.get(url);
 
         logger = LogManager.getLogger("TPTrac");
