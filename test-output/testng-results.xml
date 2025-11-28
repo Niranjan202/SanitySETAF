@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="27" passed="15" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser and login]]>
+    </line>
+    <line>
+      <![CDATA[VerifyUsersTab]]>
+    </line>
+    <line>
+      <![CDATA[AddUser]]>
+    </line>
+    <line>
+      <![CDATA[User ID assertion passed]]>
+    </line>
+    <line>
+      <![CDATA[AddAuditorUser]]>
+    </line>
+    <line>
+      <![CDATA[UpdateADauditorUser]]>
+    </line>
+    <line>
+      <![CDATA[search AD auditor user]]>
+    </line>
+    <line>
+      <![CDATA[AddAuditorUser]]>
+    </line>
+    <line>
+      <![CDATA[ Started Change User Status]]>
+    </line>
+    <line>
+      <![CDATA[Started Excel export process]]>
+    </line>
+    <line>
+      <![CDATA[logout and closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser and login]]>
+    </line>
+    <line>
+      <![CDATA[AddVendorCategory]]>
+    </line>
+    <line>
+      <![CDATA[AddDuplicateVendorCateory]]>
+    </line>
+    <line>
+      <![CDATA[assertTrue]]>
+    </line>
+    <line>
+      <![CDATA[VeiwvendorCategoryDetails]]>
+    </line>
+    <line>
+      <![CDATA[SearchvendorCategoryDetails]]>
+    </line>
+    <line>
+      <![CDATA[AddVendorCategory]]>
+    </line>
+    <line>
+      <![CDATA[logout and closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser and login]]>
+    </line>
+    <line>
+      <![CDATA[UpdateVendorCategory]]>
+    </line>
+    <line>
+      <![CDATA[assertTrue]]>
+    </line>
+    <line>
+      <![CDATA[SearchVendorCategory]]>
+    </line>
+    <line>
+      <![CDATA[logout and closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser and login]]>
+    </line>
+    <line>
+      <![CDATA[DeleteVendorCategory]]>
+    </line>
+    <line>
+      <![CDATA[logout and closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-08T18:32:07 IST" name="Suite" finished-at="2025-10-08T18:39:12 IST" duration-ms="424684">
+    <groups>
+    </groups>
+    <test started-at="2025-10-08T18:32:07 IST" name="Test" finished-at="2025-10-08T18:39:12 IST" duration-ms="424684">
+      <class name="com.tptrac.testscript.UpdateVendorCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tptrac.testscript.UpdateVendorCategory@3f4faf53]" started-at="2025-10-08T18:36:57 IST" name="setup" finished-at="2025-10-08T18:37:02 IST" duration-ms="4762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser and login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateVendorCateory()[pri:1, instance:com.tptrac.testscript.UpdateVendorCategory@3f4faf53]" started-at="2025-10-08T18:37:02 IST" name="UpdateVendorCateory" finished-at="2025-10-08T18:37:22 IST" duration-ms="19451" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UpdateVendorCategory]]>
+            </line>
+            <line>
+              <![CDATA[assertTrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateVendorCateory -->
+        <test-method signature="searchVendorCategory()[pri:2, instance:com.tptrac.testscript.UpdateVendorCategory@3f4faf53]" started-at="2025-10-08T18:37:22 IST" name="searchVendorCategory" finished-at="2025-10-08T18:37:43 IST" duration-ms="21982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchVendorCategory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchVendorCategory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tptrac.testscript.UpdateVendorCategory@3f4faf53]" started-at="2025-10-08T18:37:44 IST" name="teardown" finished-at="2025-10-08T18:38:10 IST" duration-ms="26981" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout and closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tptrac.testscript.UpdateVendorCategory -->
+      <class name="com.tptrac.testscript.DeleteVendorCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tptrac.testscript.DeleteVendorCategory@7fd50002]" started-at="2025-10-08T18:38:10 IST" name="setup" finished-at="2025-10-08T18:38:14 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser and login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteVendorCategory()[pri:0, instance:com.tptrac.testscript.DeleteVendorCategory@7fd50002]" started-at="2025-10-08T18:38:14 IST" name="deleteVendorCategory" finished-at="2025-10-08T18:38:45 IST" duration-ms="30134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DeleteVendorCategory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteVendorCategory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tptrac.testscript.DeleteVendorCategory@7fd50002]" started-at="2025-10-08T18:38:45 IST" name="teardown" finished-at="2025-10-08T18:39:12 IST" duration-ms="26912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout and closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tptrac.testscript.DeleteVendorCategory -->
+      <class name="com.tptrac.testscript.UserManagementModule">
+        <test-method is-config="true" signature="deleteDataQueries()[pri:0, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:06 IST" name="deleteDataQueries" finished-at="2025-10-08T18:32:07 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataQueries -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:07 IST" name="setup" finished-at="2025-10-08T18:32:14 IST" duration-ms="6488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser and login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUsersTab()[pri:1, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:14 IST" name="VerifyUsersTab" finished-at="2025-10-08T18:32:17 IST" duration-ms="3181" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyUsersTab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersTab -->
+        <test-method signature="testAddUserBlankField()[pri:2, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:17 IST" name="testAddUserBlankField" finished-at="2025-10-08T18:32:28 IST" duration-ms="11081" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddUser]]>
+            </line>
+            <line>
+              <![CDATA[User ID assertion passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddUserBlankField -->
+        <test-method signature="testAddADAuditorUser()[pri:3, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:28 IST" name="testAddADAuditorUser" finished-at="2025-10-08T18:32:43 IST" duration-ms="15370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddAuditorUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddADAuditorUser -->
+        <test-method signature="testUpdateADAuditorUser()[pri:4, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:43 IST" name="testUpdateADAuditorUser" finished-at="2025-10-08T18:32:55 IST" duration-ms="11740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UpdateADauditorUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUpdateADAuditorUser -->
+        <test-method signature="searchUser()[pri:5, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:32:55 IST" name="searchUser" finished-at="2025-10-08T18:33:09 IST" duration-ms="14239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[search AD auditor user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method signature="testDisabledADAuditorUser()[pri:6, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:33:09 IST" name="testDisabledADAuditorUser" finished-at="2025-10-08T18:33:36 IST" duration-ms="26688" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User still appears in the list after deactivation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User still appears in the list after deactivation.
+at org.testng.Assert.fail(Assert.java:110)
+at com.tptrac.testscript.UserManagementModule.testDisabledADAuditorUser(UserManagementModule.java:681)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[AddAuditorUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDisabledADAuditorUser -->
+        <test-method signature="ChangeADAuditorUserStatus()[pri:7, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:33:36 IST" name="ChangeADAuditorUserStatus" finished-at="2025-10-08T18:34:13 IST" duration-ms="36459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Started Change User Status]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChangeADAuditorUserStatus -->
+        <test-method signature="ExportExcel()[pri:8, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:34:13 IST" name="ExportExcel" finished-at="2025-10-08T18:34:33 IST" duration-ms="20103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Started Excel export process]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ExportExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:34:33 IST" name="teardown" finished-at="2025-10-08T18:35:00 IST" duration-ms="26984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout and closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="sendEmailPost()[pri:0, instance:com.tptrac.testscript.UserManagementModule@302c971f]" started-at="2025-10-08T18:39:17 IST" name="sendEmailPost" finished-at="2025-10-08T18:39:17 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailPost -->
+      </class> <!-- com.tptrac.testscript.UserManagementModule -->
+      <class name="com.tptrac.testscript.VendorCategoryManagementModule">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:35:00 IST" name="setup" finished-at="2025-10-08T18:35:04 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser and login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddVendorCategory()[pri:1, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:35:04 IST" name="AddVendorCategory" finished-at="2025-10-08T18:35:19 IST" duration-ms="15140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddVendorCategory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddVendorCategory -->
+        <test-method signature="AddDuplicateVendorCategory()[pri:2, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:35:19 IST" name="AddDuplicateVendorCategory" finished-at="2025-10-08T18:35:39 IST" duration-ms="19679" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddDuplicateVendorCateory]]>
+            </line>
+            <line>
+              <![CDATA[assertTrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddDuplicateVendorCategory -->
+        <test-method signature="VeiwvendorCategoryDetails()[pri:3, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:35:39 IST" name="VeiwvendorCategoryDetails" finished-at="2025-10-08T18:36:04 IST" duration-ms="25337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VeiwvendorCategoryDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VeiwvendorCategoryDetails -->
+        <test-method signature="searchVendorCategory()[pri:4, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:36:04 IST" name="searchVendorCategory" finished-at="2025-10-08T18:36:21 IST" duration-ms="16523" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchvendorCategoryDetails]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchVendorCategory -->
+        <test-method signature="AddITVendorCategory()[pri:5, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:36:21 IST" name="AddITVendorCategory" finished-at="2025-10-08T18:36:30 IST" duration-ms="9619" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AddVendorCategory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddITVendorCategory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tptrac.testscript.VendorCategoryManagementModule@2a693f59]" started-at="2025-10-08T18:36:30 IST" name="teardown" finished-at="2025-10-08T18:36:57 IST" duration-ms="26854" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout and closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tptrac.testscript.VendorCategoryManagementModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

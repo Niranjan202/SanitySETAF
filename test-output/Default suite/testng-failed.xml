@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tptrac.testscript.VendorManagementModule">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchVendor"/>
+          <include name="sendEmailPost"/>
+          <include name="testAddVendor"/>
+          <include name="setup"/>
+          <include name="deleteDataQueries"/>
+          <include name="ViewDetails"/>
+          <include name="addBSNLVendor"/>
+        </methods>
+      </class> <!-- com.tptrac.testscript.VendorManagementModule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

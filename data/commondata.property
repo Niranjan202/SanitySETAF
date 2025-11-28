@@ -1,0 +1,37 @@
+url https://setptracauditorqabsfprod.secureyes.net/login
+username mo_bank_2@secureyesdev.com
+password Secure@1234
+CRN CAB03
+browser Chrome
+
+path1 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\VendorUploadTemplateTest.xlsx"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Partial Framework.xlsx"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Partial Framework.pdf"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template.xlsx"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template section.xlsx"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template without section.xlsx"
+path "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\TestScript.xlsx"
+
+
+
+path1 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\VendorUploadTemplateTest.xlsx"
+path2 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Partial Framework.xlsx"
+path3 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Partial Framework.pdf"
+path4 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template.xlsx"
+path5 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template section.xlsx"
+path6 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Questionnaire Upload Template without section.xlsx"
+path7 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\TestScript.xlsx"
+path8 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\testblankupload.xlsx"
+path9 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Invalid file.xlsx"
+
+
+urlvendor https://setptracvendorqa.secureyes.net/Login
+vendorusername mo_bank_10@secureyesdev.com
+vendorpassword Secure@1234
+path7 "C:\\Users\\Niranjan Srichandan\\eclipse-workspace\\SanitySETAF\\src\\test\\resources\\data\\Custom-Report_Export_tester_31-07-2023_3-06-51 PM.doc""
+
+username1 srichandan
+password1 Srichandan@2024
+frameworkName=CS Framework
+       
+       

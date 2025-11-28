@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+ <listener class-name="com.tptrac.generic.ExtentListener"></listener> 
+</listeners>
+
+  <test thread-count="5" name="Test"> 
+    <classes>
+		
+		<class name="com.tptrac.testscript.UserManagementModule"/> 
+     	<class name="com.tptrac.testscript.VendorCategoryManagementModule"/> 
+       	<class name="com.tptrac.testscript.UpdateVendorCategory"/>  
+		<class name="com.tptrac.testscript.DeleteVendorCategory"/> 
+<!--		<class name="com.tptrac.testscript.VendorManagementModule"/> -->
+<!--		<class name="com.tptrac.testscript.Frameworkquestionupload"/>  -->
+<!--		<class name="com.tptrac.testscript.VendorUploadModule"/> -->
+<!--		<class name="com.tptrac.testscript.VendorUserManagement"/>-->
+<!--		<class name="com.tptrac.testscript.FrameBasedAssessmentModule"/> -->
+<!--		<class name="com.tptrac.testscript.QuestionnairLibraryandTemplateUploadModule"/> -->
+<!--		<class name="com.tptrac.testscript.AssessmentCalendarModule"/> -->
+<!--		<class name="com.tptrac.testscript.QuestionaryBasedAssessmentModule"/>-->
+<!--		<class name="com.tptrac.testscript.AssessmentStatisticsModule"/>-->
+<!--		<class name="com.tptrac.testscript.ObservationTrackerModule"/>-->
+<!--		<class name="com.tptrac.testscript.FrameworksModule"/> -->
+<!--   		<class name="com.tptrac.testscript.Questionarylibarary" />-->
+<!--		<class name="com.tptrac.testscript.ReportModule"/>-->
+<!--		<class name="com.tptrac.testscript.UpdateVendorManagement"/> -->
+<!--		<class name="com.tptrac.testscript.VendorReports"/>     -->
+<!--     	<class name="com.tptrac.testscript.VendorObservationTrackerModule"/> 		-->
+<!--     	<class name="com.tptrac.testscript.AuditTrailModule"/> 		-->
+
+</classes>
+</test> <!--Test-->
+</suite> <!-- Suite -->  
+
+
+
