@@ -917,9 +917,9 @@ public void testUpdateLocalAuditorUser() throws InterruptedException, EncryptedD
 		fWait.until(ExpectedConditions.visibilityOf(u.DRselect()));
 		fWait.until(ExpectedConditions.elementToBeClickable(u.DRselect())).click();
 		u.searchUser().clear();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		u.searchUser().sendKeys(userName);
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		fWait.until(ExpectedConditions.elementToBeClickable(up.ClickUsertoSelect(userName)));
 		up.ClickUsertoSelect(userName).click();
 		fWait.until(ExpectedConditions.visibilityOf(u.ClickCheckbox()));
