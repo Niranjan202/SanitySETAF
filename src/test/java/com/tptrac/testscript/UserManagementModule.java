@@ -929,7 +929,7 @@ public void testUpdateLocalAuditorUser() throws InterruptedException, EncryptedD
 		Thread.sleep(2000);
 		fWait.until(ExpectedConditions.visibilityOf(u.Yes()));
 		u.Yes().click();
-		String invalidData = f.getExcelData("AddUser",2, 3);
+		String invalidData = f.getExcelData("AddUser",2,3);
 		logger.info("Get invalid data");
 		u.searchUser().sendKeys(invalidData);
 		if(u.verify_Data().size()>0) {
