@@ -57,9 +57,6 @@ public void openBrowser() throws IOException, InterruptedException {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-web-security");
 		driver=new ChromeDriver(options);
-		//driver = new HtmlUnitDriver();
-		//driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println("successfully opened browser");
 		Reporter.log("openBrowser successful");
 		
@@ -76,7 +73,6 @@ public void openBrowser() throws IOException, InterruptedException {
 
         logger = LogManager.getLogger("TPTrac");
         logger.info("URL opened");
-
         LoginPage l = new LoginPage(driver);
         Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@placeholder='CRN Code']")).sendKeys("CAB03");
