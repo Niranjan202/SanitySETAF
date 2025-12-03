@@ -30,7 +30,8 @@ public class JdbcSQLServerConnection {
             user = fileLib.getPropertyData("username1");
             pass = fileLib.getPropertyData("password1");
             framework = fileLib.getPropertyData("frameworkName");
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             LOGGER.log(Level.SEVERE, "Failed to read properties", e);
         }
         USERNAME = user;

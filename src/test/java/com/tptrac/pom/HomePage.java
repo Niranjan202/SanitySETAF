@@ -18,7 +18,7 @@ public class HomePage {
 	BaseClass1 b = new BaseClass1();
 	
 	             
-	//@FindBy(xpath="//a[@role='button']")
+
 	
 //	@FindBy(xpath="/html/body/app-root/app-default/app-dashboard/div/div[1]/app-navbar/nav/div/ul/li[11]/a/img")
 	@FindBy(xpath="//a[@data-bs-toggle='dropdown' and contains(@class,'nav-link')]//img")

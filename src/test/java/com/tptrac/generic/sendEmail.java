@@ -37,6 +37,7 @@ public class sendEmail {
         email.setStartTLSRequired(true);
         email.addTo("niranjan.srichandan@secureyes.net");
         email.addTo("boda.sagar@secureyes.net");
+        email.addTo("vinod.avala@secureyes.net");
         email.setFrom("tptracsupport@secureyes.net");
         email.setSubject("TestNG Extent Report");
         email.setMsg("Here is the latest graphical extent report. Please open it in Firefox for best experience.");

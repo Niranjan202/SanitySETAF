@@ -26,7 +26,6 @@ public class Questionarylibarary extends BaseClass1 {
 	public void addsectionManagement() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		Reporter.log("addsectionManagement",false);
-
 		questionnairLibraryandTemplatePage ql=new questionnairLibraryandTemplatePage(driver);
 		FileLib f=new FileLib();
 		String sectionname = f.getExcelData("QestiontionnairUpload",1, 6);

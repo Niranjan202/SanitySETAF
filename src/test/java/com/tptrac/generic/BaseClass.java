@@ -85,8 +85,7 @@ public void openBrowser() throws IOException, InterruptedException {
 		System.out.println("not opened browser");
 		Reporter.log("openBrowser failed");
 		throw(e);
-		
-	}
+		}
    
 	
 	 
