@@ -54,8 +54,9 @@ public class sendEmail {
         File dir = new File(directoryPath);
         File[] files = dir.listFiles((dir1, name) -> name.endsWith(".html"));
 
-        if (files == null || files.length == 0) {
-            return null;
+        if (files == null || files.length == 0) 
+        {
+          return null;
         }
 
         File latestFile = files[0];
