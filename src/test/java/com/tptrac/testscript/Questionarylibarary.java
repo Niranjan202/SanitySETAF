@@ -94,7 +94,6 @@ public class Questionarylibarary extends BaseClass1 {
 
 		questionnairLibraryandTemplatePage ql=new questionnairLibraryandTemplatePage(driver);
 		FileLib f=new FileLib();
-		
 		String sectionname = f.getExcelData("QestiontionnairUpload",1, 6);
 		String sectioncode=f.getExcelData("QestiontionnairUpload", 1, 7);
 		Thread.sleep(4000);
