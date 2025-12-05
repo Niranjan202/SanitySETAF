@@ -48,10 +48,8 @@ public class QuestionnairLibraryandTemplateUploadModule extends BaseClass1
 
 		questionnairLibraryandTemplatePage ql=new questionnairLibraryandTemplatePage(driver);
 		FileLib f=new FileLib();
-
 		String sectionname = f.getExcelData("Upload",2, 4);
 		String sectioncode=f.getExcelData("Upload", 2, 5);
-		
 		ql.clickQuestionlib().click();
 		// Wait for section management to be visible
 	    fWait.until(ExpectedConditions.visibilityOf(ql.clicksectionmanagement()));
