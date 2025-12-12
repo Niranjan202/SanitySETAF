@@ -932,6 +932,7 @@ public void testUpdateLocalAuditorUser() throws InterruptedException, EncryptedD
 		String invalidData = f.getExcelData("AddUser",2,3);
 		logger.info("Get invalid data");
 		u.searchUser().sendKeys(invalidData);
+		
 		if(u.verify_Data().size()>0) {
 			Assert.fail();
 		}else {
