@@ -6,15 +6,54 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.tptrac.testscript.UserManagementModule">
+      <class name="com.tptrac.testscript.DeleteVendorCategory">
         <methods>
           <include name="teardown"/>
-          <include name="testDisabledADAuditorUser"/>
+          <include name="deleteVendorCategory"/>
           <include name="sendEmailPost"/>
           <include name="setup"/>
           <include name="deleteDataQueries"/>
         </methods>
+      </class> <!-- com.tptrac.testscript.DeleteVendorCategory -->
+      <class name="com.tptrac.testscript.UserManagementModule">
+        <methods>
+          <include name="teardown"/>
+          <include name="testUpdateADAuditorUser"/>
+          <include name="testDisabledADAuditorUser"/>
+          <include name="sendEmailPost"/>
+          <include name="testAddADAuditorUser"/>
+          <include name="testAddUserBlankField"/>
+          <include name="setup"/>
+          <include name="ChangeADAuditorUserStatus"/>
+          <include name="deleteDataQueries"/>
+          <include name="ExportExcel"/>
+          <include name="searchUser"/>
+          <include name="VerifyUsersTab"/>
+        </methods>
       </class> <!-- com.tptrac.testscript.UserManagementModule -->
+      <class name="com.tptrac.testscript.VendorCategoryManagementModule">
+        <methods>
+          <include name="teardown"/>
+          <include name="AddITVendorCategory"/>
+          <include name="VeiwvendorCategoryDetails"/>
+          <include name="searchVendorCategory"/>
+          <include name="sendEmailPost"/>
+          <include name="AddVendorCategory"/>
+          <include name="setup"/>
+          <include name="deleteDataQueries"/>
+          <include name="AddDuplicateVendorCategory"/>
+        </methods>
+      </class> <!-- com.tptrac.testscript.VendorCategoryManagementModule -->
+      <class name="com.tptrac.testscript.UpdateVendorCategory">
+        <methods>
+          <include name="teardown"/>
+          <include name="sendEmailPost"/>
+          <include name="setup"/>
+          <include name="deleteDataQueries"/>
+          <include name="UpdateVendorCateory"/>
+          <include name="searchVendorCategory"/>
+        </methods>
+      </class> <!-- com.tptrac.testscript.UpdateVendorCategory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
